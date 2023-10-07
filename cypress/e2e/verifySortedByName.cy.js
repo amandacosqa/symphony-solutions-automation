@@ -1,4 +1,5 @@
 describe('Sorting items on the inventory page', () => {
+  
   beforeEach(() => {
     cy.goToSwagLabs()
     cy.login("standard_user", "secret_sauce")

@@ -1,4 +1,5 @@
 describe('GET api.publicapis.org/entries', () => {
+  
     it('API testing', () => {
       let result = 0;
       cy.request('GET', 'https://api.publicapis.org/entries').then((res) => {
