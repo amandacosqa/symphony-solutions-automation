@@ -4,7 +4,8 @@
   "description": "Test automation with Cypress ",
   "main": "index.js",
   "scripts": {
-    "test": "npx run cypress"
+    "test": "cypress run", 
+    "test spec": "cypress run --spec 'cypress/e2e/verifySortedByName.cy.js'"
   },
   "repository": {
     "type": "git",
