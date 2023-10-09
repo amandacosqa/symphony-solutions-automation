@@ -1,10 +1,10 @@
-import { productsOrderByAsc, productsOrderByDesc } from "../fixtures/data"
+import { productsOrderByAsc, productsOrderByDesc, username, password } from "../fixtures/data"
 
 describe('Sorting items on the inventory page', () => {
   
   beforeEach(() => {
     cy.goToSwagLabs()
-    cy.login("standard_user", "secret_sauce")
+    cy.login(username, password)
   })
   
   it('Given the inventory page is displayed then items are sorted A-Z', () => {
