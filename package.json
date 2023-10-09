@@ -1,0 +1,28 @@
+{
+  "name": "symphony-solutions-automation",
+  "version": "1.0.0",
+  "description": "Test automation with Cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run", 
+    "test spec": "cypress run --spec 'cypress/e2e/verifySortedByName.cy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amandacosqa/symphony-solutions-automation.git"
+  },
+  "keywords": [
+    "cypress",
+    "symphony",
+    "solutions"
+  ],
+  "author": "Amanda Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandacosqa/symphony-solutions-automation/issues"
+  },
+  "homepage": "https://github.com/amandacosqa/symphony-solutions-automation#readme",
+  "dependencies": {
+    "cypress": "^13.3.0"
+  }
+}
